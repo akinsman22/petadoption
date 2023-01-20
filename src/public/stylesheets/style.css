@@ -1,0 +1,45 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: #7278f2;
+}
+
+a {
+    color: #2b2548;
+}
+
+a.button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+a.button:hover {
+    background-color: #6043c1;
+    color: white;
+} 
+a.button1 {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+a.button1:hover {
+    background-color: #6043c1;
+    color: white;
+}
+img {
+    width: 300px;
+}
+.listName {
+   margin: 0; 
+}

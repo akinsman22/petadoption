@@ -1,0 +1,11 @@
+{{#with findPet}}
+    <img src="{{imgURL}}"/>
+    <br>
+    <h4>This pet's name is: {{name}}</h4>
+    <p>This is a {{type}}. {{name}} is {{gender}} and is {{age}} years old. {{description}} This pet is available for adoption is excited for their forever Home.</p>
+    <br>
+    <br>
+    <a href="/pet/edit/{{petId}}" class="button">Edit Details</a>
+{{/with}}
+<br>
+<a href="/pet" class="button">Home Page</a>
